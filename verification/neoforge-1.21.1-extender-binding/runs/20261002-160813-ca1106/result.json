@@ -1,0 +1,74 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.209",
+  "reload_from": null,
+  "run_id": "20261002-160813-ca1106",
+  "passed": true,
+  "server_exit": 0,
+  "client_exit": 0,
+  "production_commit": "eac1b6b74137b391ab10355c91bde77f38c15728",
+  "working_tree_diff_sha256": "0bcbee9d963f5f53d0b339adabeb933765ddf2ecfdfdd430d4f74d65145e2bdd",
+  "production_jar_sha256": {
+    "energycontrol-1.21.1-0.3.0-compat.jar": "9f1e9f06f0d1ba97e2d077793a6d90cc16a5d7bd069e84f1cfb579ad46e88676"
+  },
+  "screenshots": [
+    {
+      "file": "client\\screenshots\\01-page-one.png",
+      "bytes": 193511,
+      "sha256": "a0154b8926548aa69c04ce29ff9f4cf84c2f979a88396e066aba48eb9dd07123"
+    },
+    {
+      "file": "client\\screenshots\\02-page-two.png",
+      "bytes": 168308,
+      "sha256": "68ab15e0291412e10746bbe4739c58c1f313dfe962cac4e3aec8097d30c39133"
+    },
+    {
+      "file": "client\\screenshots\\03-page-three.png",
+      "bytes": 148804,
+      "sha256": "18a22a4c10b71f0d81a0f4d5df176a1e3f13ad35754e0a42309f68261a23abf2"
+    },
+    {
+      "file": "client\\screenshots\\04-two-rows.png",
+      "bytes": 141076,
+      "sha256": "e9dd5f1707b2ba66573893ad300f03e2397c560a6ab083efe0e08a23670be996"
+    },
+    {
+      "file": "client\\screenshots\\05-original-error.png",
+      "bytes": 134226,
+      "sha256": "bed7e96a43a25e36265d45307db2551ea5e90b402564bb7c97f7ba7d9df4d85a"
+    },
+    {
+      "file": "client\\screenshots\\06-original-text.png",
+      "bytes": 132238,
+      "sha256": "ce81663ef2d02b5cff0d37383d5f90392b07d8fb7b80e1ae1b2e3b48d8368b9f"
+    },
+    {
+      "file": "client\\screenshots\\07-original-text-reopened.png",
+      "bytes": 131627,
+      "sha256": "2d4fb0772d7bdd752e83e8be227e540ab11ec87b6a5d00decb3b40d9515cf537"
+    },
+    {
+      "file": "client\\screenshots\\08-real-energy.png",
+      "bytes": 126866,
+      "sha256": "05385164f20ae9b53e345d4cc8cafa50d2f7878826aba8ba5d6a115d45cf3e6a"
+    },
+    {
+      "file": "client\\screenshots\\09-real-energy-changed.png",
+      "bytes": 126857,
+      "sha256": "ea8cd40240885a5e2898126415987c56ff50db9e74c0e7bb6612fdfd4ff951c4"
+    },
+    {
+      "file": "client\\screenshots\\11-panels-world.png",
+      "bytes": 225406,
+      "sha256": "f3f6929ecdcc68b89f5c21fc5a6d3e9c7c14ff3ee4b1e1ec14fbf2e7b15c2377"
+    },
+    {
+      "file": "client\\screenshots\\12-advanced-gui.png",
+      "bytes": 116441,
+      "sha256": "8a9d91e15307b8dec1f31d3c72ac9e1614873b5a9e2c3e7c3e4c48129aa0ed6c"
+    }
+  ],
+  "server_checks": 38,
+  "checks": 30,
+  "original_result_sha256": "f88b76e578ca95b88322d2df448c6b349fbbcd38303e1703b02c6fc5ae8bfd46"
+}

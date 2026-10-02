@@ -1,0 +1,58 @@
+[PORTABLE-QA] CONNECT from net.minecraft.client.gui.screens.TitleScreen
+[PORTABLE-QA] STATE ticks=100 screen=net.minecraft.client.gui.screens.ConnectScreen overlay=none
+[PORTABLE-QA] CONNECTION connected=true autoRead=true received=0.0 listener=net.minecraft.client.multiplayer.ClientPacketListener
+[PORTABLE-QA] PASS original portable menu has two device slots and nine hotbar slots
+[PORTABLE-QA] PASS multi-page controls rendered
+[PORTABLE-QA] PASS first page boundaries
+[PORTABLE-QA] PASS server fixture rows arrived through original menu synchronization
+[PORTABLE-QA] SCREENSHOT 01-page-one.png
+[PORTABLE-QA] PASS live server readings update while GUI remains open
+[PORTABLE-QA] PASS real GUI accepted navigation click
+[PORTABLE-QA] STATE ticks=200 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS second page reached by actual GUI click
+[PORTABLE-QA] SCREENSHOT 02-page-two.png
+[PORTABLE-QA] PASS real GUI accepted navigation click
+[PORTABLE-QA] STATE ticks=300 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS third page ends at row twenty-nine
+[PORTABLE-QA] SCREENSHOT 03-page-three.png
+[PORTABLE-QA] PASS live row reduction clamps and hides navigation
+[PORTABLE-QA] SCREENSHOT 04-two-rows.png
+[PORTABLE-QA] STATE ticks=400 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS live row growth restores controls
+[PORTABLE-QA] PASS real GUI accepted navigation click
+[PORTABLE-QA] PASS original error state clears invalid page
+[PORTABLE-QA] SCREENSHOT 05-original-error.png
+[PORTABLE-QA] STATE ticks=500 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS original data returns after error
+[PORTABLE-QA] PASS real slot packet removes card and resets UI
+[PORTABLE-QA] PASS real slot packet reinserts card without loss
+[PORTABLE-QA] STATE ticks=600 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS production text card still renders without pagination
+[PORTABLE-QA] SCREENSHOT 06-original-text.png
+[PORTABLE-QA] STATE ticks=700 screen=none overlay=none
+[PORTABLE-QA] PASS original text card survives close and reopen through parent item NBT
+[PORTABLE-QA] PASS original single-page card layout preserved after reopen
+[PORTABLE-QA] SCREENSHOT 07-original-text-reopened.png
+[PORTABLE-QA] STATE ticks=800 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS production energy card installed through original menu
+[PORTABLE-QA] PASS production card displays real NeoForge energy capability amount
+[PORTABLE-QA] SCREENSHOT 08-real-energy.png
+[PORTABLE-QA] PASS real charging is synchronized into open portable GUI
+[PORTABLE-QA] SCREENSHOT 09-real-energy-changed.png
+[PORTABLE-QA] STATE ticks=900 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] PASS two-block advanced screen geometry synchronizes to client
+[PORTABLE-QA] PASS advanced text card synchronized to world renderer
+[PORTABLE-QA] VISUAL coreTexture=14 extenderTexture=13 coreFacing=south extFacing=south coreRotation=down extRotation=down
+[PORTABLE-QA] VISUAL_EXT_NBT {coreX:-1,coreY:-59,coreZ:-2,facing:3,partOfScreen:1b}
+[PORTABLE-QA] PASS core and extender share synchronized screen bounds for rendering
+[PORTABLE-QA] PASS south-facing two-block screen has outer borders only
+[PORTABLE-QA] SCREENSHOT 11-panels-world.png
+[PORTABLE-QA] STATE ticks=1000 screen=com.zuxelus.energycontrol.gui.GuiAdvancedInfoPanel overlay=none
+[PORTABLE-QA] PASS actual right click opens original advanced panel GUI
+[PORTABLE-QA] SCREENSHOT 12-advanced-gui.png
+[PORTABLE-QA] STATE ticks=1100 screen=none overlay=none
+[PORTABLE-QA] PASS panel GUI closes normally before block interaction
+[PORTABLE-QA] PASS ordinary extender removal and one-block geometry synchronize to client
+[PORTABLE-QA] PASS normal extender replacement restores two-block screen on client
+[PORTABLE-QA] STATE ticks=1200 screen=com.zuxelus.energycontrol.gui.GuiPortablePanel overlay=none
+[PORTABLE-QA] ALL_DONE checks=30 screenshots=11

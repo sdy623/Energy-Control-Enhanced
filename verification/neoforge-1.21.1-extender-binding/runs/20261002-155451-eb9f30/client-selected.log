@@ -1,0 +1,10 @@
+[PORTABLE-QA] CONNECT from net.minecraft.client.gui.screens.TitleScreen
+[PORTABLE-QA] STATE ticks=100 screen=net.minecraft.client.gui.screens.ConnectScreen overlay=none
+[PORTABLE-QA] CONNECTION connected=true autoRead=true received=0.0 listener=net.minecraft.client.multiplayer.ClientPacketListener
+[PORTABLE-QA] PASS saved production energy card restored on client after server restart
+[PORTABLE-QA] PASS saved production energy amount synchronizes after server restart
+[PORTABLE-QA] SCREENSHOT 10-reloaded-energy.png
+[PORTABLE-QA] PASS two-block advanced screen geometry synchronizes to client
+[PORTABLE-QA] PASS advanced text card synchronized to world renderer
+[PORTABLE-QA] VISUAL coreTexture=14 extenderTexture=15 coreFacing=south extFacing=south coreRotation=down extRotation=north
+[PORTABLE-QA] FAIL stage=60 java.lang.AssertionError: core and extender share synchronized screen bounds for rendering

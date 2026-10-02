@@ -1,0 +1,9 @@
+allprojects { p ->
+    p.afterEvaluate {
+        p.tasks.matching { it.name == 'runServer' }.configureEach { standardInput = System.in }
+        p.neoForge.runs.server {
+            gameDirectory = new File(p.property('shutdownQaDir'))
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+}

@@ -1,0 +1,43 @@
+[PORTABLE-QA] SERVER_READY fixtureRows=29
+[PORTABLE-QA] SERVER_PASS production assembler exposes real NeoForge energy capability
+[PORTABLE-QA] SERVER_PASS real capability accepts energy
+[PORTABLE-QA] SERVER_PASS real capability amount changes after charging
+[PORTABLE-QA] SERVER_PASS normal BlockItem placement: block.energycontrol.info_panel_advanced_extender
+[PORTABLE-QA] SERVER_PASS normal BlockItem placement: block.energycontrol.info_panel_advanced
+[PORTABLE-QA] SERVER_PASS normal BlockItem placement: block.energycontrol.info_panel
+[PORTABLE-QA] SERVER_PASS normal BlockItem placement: block.energycontrol.holo_panel
+[PORTABLE-QA] SERVER_PASS production portable recipe loaded in 1.21.1 RecipeManager
+[PORTABLE-QA] SERVER_EXT_NBT {coreX:-1,coreY:-59,coreZ:-2,facing:3,partOfScreen:1b}
+[PORTABLE-QA] SERVER_PASS advanced panel power mode works
+[PORTABLE-QA] SERVER_PASS advanced extender forms a two-block screen
+[PORTABLE-QA] SERVER_PASS advanced panel text card retained
+[PORTABLE-QA] SERVER_PASS basic panel redstone and dynamic text work
+[PORTABLE-QA] SERVER_PASS holographic panel receives text
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS normal player game mode destroys extender without test protection
+[PORTABLE-QA] SERVER_PASS destroyed extender is air on server
+[PORTABLE-QA] SERVER_PASS breaking extender rebuilds the remaining single-block screen
+[PORTABLE-QA] SERVER_PASS normal BlockItem placement: block.energycontrol.info_panel_advanced_extender
+[PORTABLE-QA] SERVER_EXT_NBT {coreX:-1,coreY:-59,coreZ:-2,facing:3,partOfScreen:1b}
+[PORTABLE-QA] SERVER_PASS advanced panel power mode works
+[PORTABLE-QA] SERVER_PASS advanced extender forms a two-block screen
+[PORTABLE-QA] SERVER_PASS advanced panel text card retained
+[PORTABLE-QA] SERVER_PASS basic panel redstone and dynamic text work
+[PORTABLE-QA] SERVER_PASS holographic panel receives text
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal false on core and extender
+[16:09:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[16:09:51] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

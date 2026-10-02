@@ -1,0 +1,39 @@
+[PORTABLE-QA] SERVER_PASS production assembler restored from saved world
+[PORTABLE-QA] SERVER_PASS real FE amount survives complete server restart
+[PORTABLE-QA] SERVER_PASS portable item survives saved player reload
+[PORTABLE-QA] SERVER_PASS energy card target survives player reload
+[PORTABLE-QA] SERVER_READY reload
+[PORTABLE-QA] SERVER_EXT_NBT {coreX:-1,coreY:-59,coreZ:-2,facing:3,partOfScreen:1b}
+[PORTABLE-QA] SERVER_PASS advanced panel power mode works after restart
+[PORTABLE-QA] SERVER_PASS advanced extender forms a two-block screen after restart
+[PORTABLE-QA] SERVER_PASS advanced panel text card retained after restart
+[PORTABLE-QA] SERVER_PASS basic panel redstone and dynamic text work after restart
+[PORTABLE-QA] SERVER_PASS holographic panel receives text after restart
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS normal player game mode destroys extender without test protection
+[PORTABLE-QA] SERVER_PASS destroyed extender is air on server
+[PORTABLE-QA] SERVER_PASS breaking extender rebuilds the remaining single-block screen
+[PORTABLE-QA] SERVER_PASS normal BlockItem placement: block.energycontrol.info_panel_advanced_extender
+[PORTABLE-QA] SERVER_EXT_NBT {coreX:-1,coreY:-59,coreZ:-2,facing:3,partOfScreen:1b}
+[PORTABLE-QA] SERVER_PASS advanced panel power mode works after restart
+[PORTABLE-QA] SERVER_PASS advanced extender forms a two-block screen after restart
+[PORTABLE-QA] SERVER_PASS advanced panel text card retained after restart
+[PORTABLE-QA] SERVER_PASS basic panel redstone and dynamic text work after restart
+[PORTABLE-QA] SERVER_PASS holographic panel receives text after restart
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 2 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 3 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 0 respects neighbor signal false on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal true on core and extender
+[PORTABLE-QA] SERVER_PASS power mode 1 respects neighbor signal false on core and extender
+[16:07:45] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[16:07:45] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

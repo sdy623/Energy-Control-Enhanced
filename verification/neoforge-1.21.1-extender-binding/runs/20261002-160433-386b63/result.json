@@ -1,0 +1,16 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.209",
+  "reload_from": "20261002-153852-5d64fc",
+  "run_id": "20261002-160433-386b63",
+  "passed": false,
+  "server_exit": 0,
+  "client_exit": 0,
+  "production_commit": "eac1b6b74137b391ab10355c91bde77f38c15728",
+  "working_tree_diff_sha256": "7f449d2de14f5ffef9ac3f815b9fb0c53e98bb72f87e936d016f576ced589892",
+  "production_jar_sha256": {
+    "energycontrol-1.21.1-0.3.0-compat.jar": "2469c2cc6680f62fe5d2401e263895354c53faa1ec4a41fd6fa6628480eed966"
+  },
+  "error": "client acceptance did not complete successfully",
+  "original_result_sha256": "55c38f5944e72767c2f3d7c8c3e8c3ad4f453c7436ef6cbed960bc8e78c8e07c"
+}

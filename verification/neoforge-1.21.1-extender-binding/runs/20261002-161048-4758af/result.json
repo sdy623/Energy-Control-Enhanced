@@ -1,0 +1,34 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.209",
+  "reload_from": "20261002-160813-ca1106",
+  "run_id": "20261002-161048-4758af",
+  "passed": true,
+  "server_exit": 0,
+  "client_exit": 0,
+  "production_commit": "eac1b6b74137b391ab10355c91bde77f38c15728",
+  "working_tree_diff_sha256": "0bcbee9d963f5f53d0b339adabeb933765ddf2ecfdfdd430d4f74d65145e2bdd",
+  "production_jar_sha256": {
+    "energycontrol-1.21.1-0.3.0-compat.jar": "9f1e9f06f0d1ba97e2d077793a6d90cc16a5d7bd069e84f1cfb579ad46e88676"
+  },
+  "screenshots": [
+    {
+      "file": "client\\screenshots\\10-reloaded-energy.png",
+      "bytes": 255628,
+      "sha256": "32fad38091030bd7d73f24a1afb86264820b510e9b5b17fda3d067a8524190a1"
+    },
+    {
+      "file": "client\\screenshots\\11-panels-world.png",
+      "bytes": 230236,
+      "sha256": "a5b1eacf0a82f9f6debc3aa6734eea1192d5ac781d6bb697ed038181981eaf4a"
+    },
+    {
+      "file": "client\\screenshots\\12-advanced-gui.png",
+      "bytes": 134981,
+      "sha256": "ee01faff72131e1e9e15774ad2aac110909c0c2991a52329470cae7ff86e2185"
+    }
+  ],
+  "server_checks": 34,
+  "checks": 10,
+  "original_result_sha256": "05fcce0a6e878d7a16ab08fc6f76e9147fcaa34f398447eebb545c9244af046c"
+}

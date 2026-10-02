@@ -1,0 +1,22 @@
+[PORTABLE-QA] CONNECT from net.minecraft.client.gui.screens.TitleScreen
+[PORTABLE-QA] STATE ticks=100 screen=net.minecraft.client.gui.screens.ConnectScreen overlay=none
+[PORTABLE-QA] CONNECTION connected=true autoRead=true received=0.0 listener=net.minecraft.client.multiplayer.ClientPacketListener
+[PORTABLE-QA] PASS saved production energy card restored on client after server restart
+[PORTABLE-QA] PASS saved production energy amount synchronizes after server restart
+[PORTABLE-QA] SCREENSHOT 10-reloaded-energy.png
+[PORTABLE-QA] PASS two-block advanced screen geometry synchronizes to client
+[PORTABLE-QA] PASS advanced text card synchronized to world renderer
+[PORTABLE-QA] VISUAL coreTexture=14 extenderTexture=13 coreFacing=south extFacing=south coreRotation=down extRotation=down
+[PORTABLE-QA] VISUAL_EXT_NBT {coreX:-1,coreY:-59,coreZ:-2,facing:3,partOfScreen:1b}
+[PORTABLE-QA] PASS core and extender share synchronized screen bounds for rendering
+[PORTABLE-QA] PASS south-facing two-block screen has outer borders only
+[PORTABLE-QA] SCREENSHOT 11-panels-world.png
+[PORTABLE-QA] STATE ticks=200 screen=none overlay=none
+[PORTABLE-QA] PASS actual right click opens original advanced panel GUI
+[PORTABLE-QA] SCREENSHOT 12-advanced-gui.png
+[PORTABLE-QA] STATE ticks=300 screen=com.zuxelus.energycontrol.gui.GuiAdvancedInfoPanel overlay=none
+[PORTABLE-QA] PASS panel GUI closes normally before block interaction
+[PORTABLE-QA] PASS ordinary extender removal and one-block geometry synchronize to client
+[PORTABLE-QA] PASS normal extender replacement restores two-block screen on client
+[PORTABLE-QA] STATE ticks=400 screen=none overlay=none
+[PORTABLE-QA] ALL_DONE checks=10 screenshots=3

@@ -1,0 +1,27 @@
+allprojects { p ->
+    p.afterEvaluate {
+        if (p.hasProperty('portableQa')) {
+            def qaRoot = new File(p.projectDir.parentFile, 'neoforge-1.21.1-game-qa')
+            def qa = p.sourceSets.create('portableQa') {
+                java.srcDir new File(qaRoot, 'src')
+                resources.srcDir new File(qaRoot, 'resources')
+                compileClasspath += p.sourceSets.main.output
+                runtimeClasspath += p.sourceSets.main.output
+            }
+            p.configurations.portableQaImplementation.extendsFrom(p.configurations.implementation)
+            p.configurations.portableQaCompileOnly.extendsFrom(p.configurations.compileOnly)
+            p.neoForge.addModdingDependenciesTo(qa)
+            p.neoForge.mods { ec_portable_qa { sourceSet qa } }
+            p.tasks.matching { it.name == 'runServer' }.configureEach { standardInput = System.in }
+            p.neoForge.runs.configureEach {
+                gameDirectory = new File(qaRoot, 'run/' + p.property('portableQaRun') + '/' + name)
+                systemProperty 'portableqa.enabled', 'true'
+                if (p.hasProperty('portableQaReload')) systemProperty 'portableqa.reload', 'true'
+                logLevel = org.slf4j.event.Level.INFO
+                systemProperty 'fml.earlyprogresswindow', 'false'
+                sourceSet = qa
+            }
+            p.neoForge.runs.client { programArguments.addAll '--width', '1280', '--height', '720', '--username', 'ECCompatQA' }
+        }
+    }
+}
